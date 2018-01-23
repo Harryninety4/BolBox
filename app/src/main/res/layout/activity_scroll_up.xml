@@ -1,0 +1,53 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="#ff000000"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Welcome to BolBOX"
+            android:textColor="#ff00aeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv12"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:text="Things You can Do"
+            android:layout_marginBottom="5dp"
+            android:textColor="#ffffffff" />
+        </LinearLayout>
+
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/lv"
+        android:divider="#ff171717"
+        android:background="#ff000000">
+
+    </ListView>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/sv">
+        </ScrollView>
+
+
+
+
+</LinearLayout>
